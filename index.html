@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="styles/bootstrap.min.css"> -->
+
+    <link rel="stylesheet" href="styles/style segoe font.css">
+
+    <title>Document</title>
+
+    <style>
+        #curtain {
+            background-color: white;
+            opacity: 0.29;
+            height: 4rem;
+        }
+
+        .nav-line {
+            color: #fd7e01;
+            font-size: larger;
+            font-weight: bolder;
+        }
+
+        .nav-line:hover {
+            color: white;
+        }
+
+        #nav-brand {
+            font-family: Arial;
+            font-size: 2rem;
+            font-weight: bolder;
+        }
+
+        .nav-brand:hover {
+            text-decoration: none;
+        }
+
+        #header-photo {
+            width: 100vw;
+        }
+
+        header li a:hover {
+            color: orange;
+        }
+
+        .odd-section {
+            background-color: #eeeeee;
+        }
+
+        .odd-section .secondary-header {
+            color: #fd7e01;
+            font-family: Segoe Script Regular;
+            padding-top: 7rem;
+            margin-bottom: 0;
+            font-size: 3rem;
+        }
+
+        .odd-section .primary-header {
+            color: #fd7e01;
+            font-family: Segoe Script Regular;
+            padding-bottom: 3rem;
+            margin-bottom: 0;
+            font-size: 4rem;
+            font-weight: bolder;
+        }
+
+        .odd-section .hr-line {
+            background-color: #fd7e01;
+            padding: 1px;
+        }
+
+        .odd-section header {
+            margin-bottom: 3rem;
+        }
+
+        .even-section {
+            background-color: #7d7d7d;
+        }
+
+        .even-section .secondary-header {
+            color: black;
+            font-family: Segoe Script Regular;
+            padding-top: 7rem;
+            margin-bottom: 0;
+            font-size: 3rem;
+        }
+
+        .even-section .primary-header {
+            color: black;
+            font-family: Segoe Script Regular;
+            padding-bottom: 3rem;
+            margin-bottom: 0;
+            font-size: 4rem;
+            font-weight: bolder;
+        }
+
+        .even-section .hr-line {
+            background-color: black;
+            padding: 1px;
+        }
+
+        .even-section header {
+            margin-bottom: 3rem;
+        }
+
+        #cards-container {
+            padding-bottom: 7rem;
+        }
+
+        .card {
+            border: 0.7rem solid black;
+            border-radius: 1rem !important;
+        }
+
+        #section-1 .card,
+        #section-4 .card,
+        #section-5 .card,
+        #section-6 .card {
+            background-color: black;
+        }
+
+        #section-2 .card {
+            background-color: white;
+        }
+
+        #section-3 .card-type-1 {
+            background-color: white;
+        }
+
+        #section-3 .card-type-2 {
+            background-color: black;
+        }
+
+        #section-3 .card-type-3 {
+            background-color: #dedbd6;
+        }
+
+        #footer-photo {
+            width: 100vw;
+        }
+
+        #contacts {
+            background-color: #7d7d7d;
+        }
+
+        #copyright {
+            color: white;
+        }
+
+        #icons-text {
+            color : #444444;
+            font-size: large;
+            font-weight: bolder;
+        }
+
+        #icon-1 , #icon-2 {
+            width: 4rem;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="fixed-top" id="curtain"></div>
+
+        <nav class="fixed-top">
+            <ul class="nav justify-content-between p-0">
+                <li class="nav-item">
+                    <a class="nav-brand pl-3 nav-line" id="nav-brand" href="#">Filleryab</a>
+                </li>
+                <li class="nav-item pt-2">
+                    <a class="nav-link nav-line" href="#">Home</a>
+                </li>
+                <li class="nav-item pt-2">
+                    <a class="nav-link nav-line" href="#section-1">Hyamax</a>
+                </li>
+                <li class="nav-item pt-2">
+                    <a class="nav-link nav-line" href="#section-2">Reyoungel</a>
+                </li>
+                <li class="nav-item pt-2">
+                    <a class="nav-link nav-line" href="#section-3">Neuromis</a>
+                </li>
+                <li class="nav-item pt-2">
+                    <a class="nav-link nav-line" href="#section-4">Revofil</a>
+                </li>
+                <li class="nav-item pt-2">
+                    <a class="nav-link nav-line" href="#section-5">Dermaxgel</a>
+                </li>
+                <li class="nav-item pt-2">
+                    <a class="nav-link nav-line" href="#section-6">Fake</a>
+                </li>
+                <li class="nav-item pt-2">
+                    <a class="nav-link nav-line" href="#contacts">Contacts</a>
+                </li>
+            </ul>
+        </nav>
+
+
+        <div>
+            <img id="header-photo" src="images/Header and footer/Header-photo.jpg" />
+        </div>
+    </header>
+
+    <main>
+        <section class="odd-section" id="section-1">
+            <header>
+                <p class="text-center secondary-header">Main Products</p>
+                <p class="text-center primary-header">HYAMAX Collection</p>
+                <hr class="col-1 justify-content-center my-0 hr-line"/>
+            </header>
+
+            <div id="cards-container">
+                <div class="container-fluid">
+                    <div class="row justify-content-between py-3">
+                        <div class="col-4 px-3">
+                            <div class=" card px-0">
+                                <img class="card-img-top" src="images/Hyamax/1.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-4 px-3">
+                            <div class=" card px-0">
+                                <img class="card-img-top" src="images/Hyamax/2.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-4 px-3">
+                            <div class=" card px-0">
+                                <img class="card-img-top" src="images/Hyamax/3.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row py-3">
+                        <div class="col-4 px-3">
+                            <div class=" card px-0">
+                                <img class="card-img-top" src="images/Hyamax/4.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-4 px-3">
+                            <div class="card px-0">
+                                <img class="card-img-top" src="images/Hyamax/5.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-4 px-3">
+                            <div class="card px-0">
+                                <img class="card-img-top" src="images/Hyamax/6.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row py-3">
+                        <div class="col-4 px-3">
+                            <div class="card px-0">
+                                <img class="card-img-top" src="images/Hyamax/7.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-4 px-3">
+                            <div class="card px-0">
+                                <img class="card-img-top" src="images/Hyamax/8.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-4 px-3">
+                            <div class="card px-0">
+                                <img class="card-img-top" src="images/Hyamax/9.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row py-3">
+                        <div class="col-4 px-3">
+                            <div class="card px-0" id="hyamax-card-10">
+                                <img class="card-img-top" src="images/Hyamax/10.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-4 px-3">
+                            <div class="card px-0">
+                                <img class="card-img-top" src="images/Hyamax/11.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-4 px-3">
+                            <div class="card px-0">
+                                <img class="card-img-top" src="images/Hyamax/12.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="even-section" id="section-2">
+            <header>
+                <p class="text-center secondary-header">Main Products</p>
+                <p class="text-center primary-header">REYOUNGEL Collection</p>
+                <hr class="col-1 justify-content-center my-0 hr-line"/>
+            </header>
+
+            <div id="cards-container">
+                <div class="container-fluid">
+                    <div class="row justify-content-between py-3">
+                        <div class="col-4 px-3">
+                            <div class="card px-0">
+                                <img class="card-img-top" src="images/Reyoungel/1.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-4 px-3">
+                            <div class="card px-0">
+                                <img class="card-img-top" src="images/Reyoungel/2.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-4 px-3">
+                            <div class="card px-0">
+                                <img class="card-img-top" src="images/Reyoungel/3.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row py-3">
+                        <div class="col-4 px-3">
+                            <div class="card px-0">
+                                <img class="card-img-top" src="images/Reyoungel/4.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-4 px-3">
+                            <div class="card px-0">
+                                <img class="card-img-top" src="images/Reyoungel/5.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-4 px-3">
+                            <div class="card px-0">
+                                <img class="card-img-top" src="images/Reyoungel/6.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="odd-section" id="section-3">
+            <header>
+                <p class="text-center secondary-header">Main Products</p>
+                <p class="text-center primary-header">NEUROMIS Collection</p>
+                <hr class="col-1 justify-content-center my-0 hr-line"/>
+            </header>
+
+            <div id="cards-container">
+                <div class="container-fluid">
+                    <div class="row justify-content-between py-3">
+                        <div class="col-4 px-3">
+                            <div class="card px-0 card-type-1">
+                                <img class="card-img-top" src="images/Neuromis/1.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-4 px-3">
+                            <div class="card px-0 card-type-2">
+                                <img class="card-img-top" src="images/Neuromis/2.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-4 px-3">
+                            <div class="card px-0 card-type-1">
+                                <img class="card-img-top" src="images/Neuromis/3.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row py-3">
+                        <div class="col-4 px-3">
+                            <div class="card px-0 card-type-2">
+                                <img class="card-img-top" src="images/Neuromis/4.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-4 px-3">
+                            <div class="card px-0 card-type-3">
+                                <img class="card-img-top" src="images/Neuromis/5.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-4 px-3">
+                            <div class="card px-0 card-type-2">
+                                <img class="card-img-top" src="images/Neuromis/6.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row py-3">
+                        <div class="col-4 px-3">
+                            <div class="card px-0 card-type-1">
+                                <img class="card-img-top" src="images/Neuromis/7.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-4 px-3">
+                            <div class="card px-0 card-type-2">
+                                <img class="card-img-top" src="images/Neuromis/8.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-4 px-3">
+                            <div class="card px-0 card-type-1">
+                                <img class="card-img-top" src="images/Neuromis/9.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="even-section" id="section-4">
+            <header>
+                <p class="text-center secondary-header">Main Products</p>
+                <p class="text-center primary-header">REVOFIL Collection</p>
+                <hr class="col-1 justify-content-center my-0 hr-line"/>
+            </header>
+
+            <div id="cards-container">
+                <div class="container-fluid">
+                    <div class="row justify-content-between py-3">
+                        <div class="col-4 px-3">
+                            <div class="card px-0">
+                                <img class="card-img-top" src="images/Revofil/1.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-4 px-3">
+                            <div class="card px-0">
+                                <img class="card-img-top" src="images/Revofil/2.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-4 px-3">
+                            <div class="card px-0">
+                                <img class="card-img-top" src="images/Revofil/3.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row py-3">
+                        <div class="col-4 px-3">
+                            <div class="card px-0">
+                                <img class="card-img-top" src="images/Revofil/4.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-4 px-3">
+                            <div class="card px-0">
+                                <img class="card-img-top" src="images/Revofil/5.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-4 px-3">
+                            <div class="card px-0">
+                                <img class="card-img-top" src="images/Revofil/6.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="odd-section" id="section-5">
+            <header>
+                <p class="text-center secondary-header">Main Products</p>
+                <p class="text-center primary-header">DERMAXGEL Collection</p>
+                <hr class="col-1 justify-content-center my-0 hr-line"/>
+            </header>
+
+            <div id="cards-container">
+                <div class="container-fluid">
+                    <div class="row justify-content-between py-3">
+                        <div class="col-4 px-3">
+                            <div class="card px-0">
+                                <img class="card-img-top" src="images/Dermaxgel/1.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-4 px-3">
+                            <div class="card px-0">
+                                <img class="card-img-top" src="images/Dermaxgel/2.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-4 px-3">
+                            <div class="card px-0">
+                                <img class="card-img-top" src="images/Dermaxgel/3.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row py-3">
+                        <div class="col-4 px-3">
+                            <div class="card px-0">
+                                <img class="card-img-top" src="images/Dermaxgel/4.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-4 px-3">
+                            <div class="card px-0">
+                                <img class="card-img-top" src="images/Dermaxgel/5.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-4 px-3">
+                            <div class="card px-0">
+                                <img class="card-img-top" src="images/Dermaxgel/6.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="even-section" id="section-6">
+            <header>
+                <p class="text-center secondary-header">Fake Products</p>
+                <p class="text-center primary-header">BECAREFULL WITH THEM</p>
+                <hr class="col-1 justify-content-center my-0 hr-line"/>
+            </header>
+
+            <div id="cards-container">
+                <div class="container-fluid">
+                    <div class="row justify-content-between py-3">
+                        <div class="col-4 px-3">
+                            <div class="card px-0">
+                                <img class="card-img-top" src="images/Fake/1.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-4 px-3">
+                            <div class="card px-0">
+                                <img class="card-img-top" src="images/Fake/2.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-4 px-3">
+                            <div class="card px-0">
+                                <img class="card-img-top" src="images/Fake/3.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row py-3">
+                        <div class="col-4 px-3">
+                            <div class="card px-0">
+                                <img class="card-img-top" src="images/Fake/4.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-4 px-3">
+                            <div class="card px-0">
+                                <img class="card-img-top" src="images/Fake/5.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-4 px-3">
+                            <div class="card px-0">
+                                <img class="card-img-top" src="images/Fake/6.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div>
+            <img id="footer-photo" src="images/Header and footer/Footer-photo.jpg" />
+        </div>
+
+        <div id="contacts">
+            <div class="container p-4">
+                <div class="d-flex justify-content-between">
+                    <div id="copyright">
+                        <span>
+                            Desighned and Developed by Alireza.T
+                        </span>
+                    </div>
+
+                    <div id="icons">
+                        <span class="col" id="icons-text">
+                            Conatacts :
+                        </span>
+
+                        <a href="https://www.instagram.com/reyoungel.company/">
+                            <img class="col" id="icon-1" src="images/icons/social-1_logo-instagram.svg" alt="">
+                        </a>
+
+                        <a href="https://wa.me/message/U2VUZ3MLQVUXF1">
+                            <img class="col" id="icon-2" src="images/icons/social-1_logo-whatsapp.svg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
