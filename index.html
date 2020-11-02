@@ -16,7 +16,7 @@
         #curtain {
             background-color: white;
             opacity: 0.29;
-            height: 2rem;
+            height: 4rem;
         }
 
         .nav-line {
@@ -162,10 +162,10 @@
             width: 4rem;
         }
 
-        @media screen and(min-width: 576px) {
-            #curtain {
+        @media (min-width: 576px) {
+            /* #curtain {
                 height: 4rem;
-            }
+            } */
         }
     </style>
 </head>
@@ -175,35 +175,41 @@
     <header>
         <div class="fixed-top" id="curtain"></div>
 
-        <nav class="fixed-top">
-            <ul class="nav justify-content-between p-0">
-                <li class="nav-item">
-                    <a class="nav-brand pl-3 nav-line" id="nav-brand" href="#">Filleryab</a>
-                </li>
-                <li class="nav-item pt-2">
-                    <a class="nav-link nav-line" href="#">Home</a>
-                </li>
-                <li class="nav-item pt-2">
-                    <a class="nav-link nav-line" href="#section-1">Hyamax</a>
-                </li>
-                <li class="nav-item pt-2">
-                    <a class="nav-link nav-line" href="#section-2">Reyoungel</a>
-                </li>
-                <li class="nav-item pt-2">
-                    <a class="nav-link nav-line" href="#section-3">Neuromis</a>
-                </li>
-                <li class="nav-item pt-2">
-                    <a class="nav-link nav-line" href="#section-4">Revofil</a>
-                </li>
-                <li class="nav-item pt-2">
-                    <a class="nav-link nav-line" href="#section-5">Dermaxgel</a>
-                </li>
-                <li class="nav-item pt-2">
-                    <a class="nav-link nav-line" href="#section-6">Fake</a>
-                </li>
-                <li class="nav-item pt-2">
-                    <a class="nav-link nav-line" href="#contacts">Contacts</a>
-                </li>
+        <nav class="navbar navbar-expand-sm fixed-top">
+            <a class="navbar-brand pl-3 nav-line" id="nav-brand" href="#">Filleryab</a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse-group">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbar-collapse-group">
+                <ul class="navbar-nav justify-content-between p-0">
+                    <!-- <li class="nav-item">
+                    </li> -->
+                    <li class="nav-item pt-2">
+                        <a class="nav-link nav-line" href="#">Home</a>
+                    </li>
+                    <li class="nav-item pt-2">
+                        <a class="nav-link nav-line" href="#section-1">Hyamax</a>
+                    </li>
+                    <li class="nav-item pt-2">
+                        <a class="nav-link nav-line" href="#section-2">Reyoungel</a>
+                    </li>
+                    <li class="nav-item pt-2">
+                        <a class="nav-link nav-line" href="#section-3">Neuromis</a>
+                    </li>
+                    <li class="nav-item pt-2">
+                        <a class="nav-link nav-line" href="#section-4">Revofil</a>
+                    </li>
+                    <li class="nav-item pt-2">
+                        <a class="nav-link nav-line" href="#section-5">Dermaxgel</a>
+                    </li>
+                    <li class="nav-item pt-2">
+                        <a class="nav-link nav-line" href="#section-6">Fake</a>
+                    </li>
+                    <li class="nav-item pt-2">
+                        <a class="nav-link nav-line" href="#contacts">Contacts</a>
+                    </li>
+            </div>
             </ul>
         </nav>
 
@@ -223,69 +229,69 @@
 
             <div id="cards-container">
                 <div class="container-fluid">
-                    <div class="row justify-content-between py-3">
-                        <div class="col-4 px-3">
+                    <div class="row py-0 py-3-sm">
+                        <div class="col-12 col-sm-4 px-3 py-3 py-0-sm">
                             <div class=" card px-0">
                                 <img class="card-img-top" src="images/Hyamax/1.png" alt="">
                             </div>
                         </div>
-                        <div class="col-4 px-3">
+                        <div class="col-12 col-sm-4 px-3 py-3 py-0-sm">
                             <div class=" card px-0">
                                 <img class="card-img-top" src="images/Hyamax/2.png" alt="">
                             </div>
                         </div>
-                        <div class="col-4 px-3">
+                        <div class="col-12 col-sm-4 px-3 py-3 py-0-sm">
                             <div class=" card px-0">
                                 <img class="card-img-top" src="images/Hyamax/3.png" alt="">
                             </div>
                         </div>
                     </div>
-                    <div class="row py-3">
-                        <div class="col-4 px-3">
+                    <div class="row py-0 py-3-sm">
+                        <div class="col-12 col-sm-4 px-3 py-3 py-0-sm">
                             <div class=" card px-0">
                                 <img class="card-img-top" src="images/Hyamax/4.png" alt="">
                             </div>
                         </div>
-                        <div class="col-4 px-3">
+                        <div class="col-12 col-sm-4 px-3 py-3 py-0-sm">
                             <div class="card px-0">
                                 <img class="card-img-top" src="images/Hyamax/5.png" alt="">
                             </div>
                         </div>
-                        <div class="col-4 px-3">
+                        <div class="col-12 col-sm-4 px-3 py-3 py-0-sm">
                             <div class="card px-0">
                                 <img class="card-img-top" src="images/Hyamax/6.png" alt="">
                             </div>
                         </div>
                     </div>
-                    <div class="row py-3">
-                        <div class="col-4 px-3">
+                    <div class="row py-0 py-3-sm">
+                        <div class="col-12 col-sm-4 px-3 py-3 py-0-sm">
                             <div class="card px-0">
                                 <img class="card-img-top" src="images/Hyamax/7.png" alt="">
                             </div>
                         </div>
-                        <div class="col-4 px-3">
+                        <div class="col-12 col-sm-4 px-3 py-3 py-0-sm">
                             <div class="card px-0">
                                 <img class="card-img-top" src="images/Hyamax/8.png" alt="">
                             </div>
                         </div>
-                        <div class="col-4 px-3">
+                        <div class="col-12 col-sm-4 px-3 py-3 py-0-sm">
                             <div class="card px-0">
                                 <img class="card-img-top" src="images/Hyamax/9.png" alt="">
                             </div>
                         </div>
                     </div>
-                    <div class="row py-3">
-                        <div class="col-4 px-3">
+                    <div class="row py-0 py-3-sm">
+                        <div class="col-12 col-sm-4 px-3 py-3 py-0-sm">
                             <div class="card px-0" id="hyamax-card-10">
                                 <img class="card-img-top" src="images/Hyamax/10.png" alt="">
                             </div>
                         </div>
-                        <div class="col-4 px-3">
+                        <div class="col-12 col-sm-4 px-3 py-3 py-0-sm">
                             <div class="card px-0">
                                 <img class="card-img-top" src="images/Hyamax/11.png" alt="">
                             </div>
                         </div>
-                        <div class="col-4 px-3">
+                        <div class="col-12 col-sm-4 px-3 py-3 py-0-sm">
                             <div class="card px-0">
                                 <img class="card-img-top" src="images/Hyamax/12.png" alt="">
                             </div>
@@ -304,35 +310,35 @@
 
             <div id="cards-container">
                 <div class="container-fluid">
-                    <div class="row justify-content-between py-3">
-                        <div class="col-4 px-3">
+                    <div class="row py-0 py-3-sm">
+                        <div class="col-12 col-sm-4 px-3 py-3 py-0-sm">
                             <div class="card px-0">
                                 <img class="card-img-top" src="images/Reyoungel/1.png" alt="">
                             </div>
                         </div>
-                        <div class="col-4 px-3">
+                        <div class="col-12 col-sm-4 px-3 py-3 py-0-sm">
                             <div class="card px-0">
                                 <img class="card-img-top" src="images/Reyoungel/2.png" alt="">
                             </div>
                         </div>
-                        <div class="col-4 px-3">
+                        <div class="col-12 col-sm-4 px-3 py-3 py-0-sm">
                             <div class="card px-0">
                                 <img class="card-img-top" src="images/Reyoungel/3.png" alt="">
                             </div>
                         </div>
                     </div>
-                    <div class="row py-3">
-                        <div class="col-4 px-3">
+                    <div class="row py-0 py-3-sm">
+                        <div class="col-12 col-sm-4 px-3 py-3 py-0-sm">
                             <div class="card px-0">
                                 <img class="card-img-top" src="images/Reyoungel/4.png" alt="">
                             </div>
                         </div>
-                        <div class="col-4 px-3">
+                        <div class="col-12 col-sm-4 px-3 py-3 py-0-sm">
                             <div class="card px-0">
                                 <img class="card-img-top" src="images/Reyoungel/5.png" alt="">
                             </div>
                         </div>
-                        <div class="col-4 px-3">
+                        <div class="col-12 col-sm-4 px-3 py-3 py-0-sm">
                             <div class="card px-0">
                                 <img class="card-img-top" src="images/Reyoungel/6.png" alt="">
                             </div>
@@ -351,52 +357,52 @@
 
             <div id="cards-container">
                 <div class="container-fluid">
-                    <div class="row justify-content-between py-3">
-                        <div class="col-4 px-3">
+                    <div class="row py-0 py-3-sm">
+                        <div class="col-12 col-sm-4 px-3 py-3 py-0-sm">
                             <div class="card px-0 card-type-1">
                                 <img class="card-img-top" src="images/Neuromis/1.png" alt="">
                             </div>
                         </div>
-                        <div class="col-4 px-3">
+                        <div class="col-12 col-sm-4 px-3 py-3 py-0-sm">
                             <div class="card px-0 card-type-2">
                                 <img class="card-img-top" src="images/Neuromis/2.png" alt="">
                             </div>
                         </div>
-                        <div class="col-4 px-3">
+                        <div class="col-12 col-sm-4 px-3 py-3 py-0-sm">
                             <div class="card px-0 card-type-1">
                                 <img class="card-img-top" src="images/Neuromis/3.png" alt="">
                             </div>
                         </div>
                     </div>
-                    <div class="row py-3">
-                        <div class="col-4 px-3">
+                    <div class="row py-0 py-3-sm">
+                        <div class="col-12 col-sm-4 px-3 py-3 py-0-sm">
                             <div class="card px-0 card-type-2">
                                 <img class="card-img-top" src="images/Neuromis/4.png" alt="">
                             </div>
                         </div>
-                        <div class="col-4 px-3">
+                        <div class="col-12 col-sm-4 px-3 py-3 py-0-sm">
                             <div class="card px-0 card-type-3">
                                 <img class="card-img-top" src="images/Neuromis/5.png" alt="">
                             </div>
                         </div>
-                        <div class="col-4 px-3">
+                        <div class="col-12 col-sm-4 px-3 py-3 py-0-sm">
                             <div class="card px-0 card-type-2">
                                 <img class="card-img-top" src="images/Neuromis/6.png" alt="">
                             </div>
                         </div>
                     </div>
-                    <div class="row py-3">
-                        <div class="col-4 px-3">
+                    <div class="row py-0 py-3-sm">
+                        <div class="col-12 col-sm-4 px-3 py-3 py-0-sm">
                             <div class="card px-0 card-type-1">
                                 <img class="card-img-top" src="images/Neuromis/7.png" alt="">
                             </div>
                         </div>
-                        <div class="col-4 px-3">
+                        <div class="col-12 col-sm-4 px-3 py-3 py-0-sm">
                             <div class="card px-0 card-type-2">
                                 <img class="card-img-top" src="images/Neuromis/8.png" alt="">
                             </div>
                         </div>
-                        <div class="col-4 px-3">
+                        <div class="col-12 col-sm-4 px-3 py-3 py-0-sm">
                             <div class="card px-0 card-type-1">
                                 <img class="card-img-top" src="images/Neuromis/9.png" alt="">
                             </div>
@@ -415,35 +421,35 @@
 
             <div id="cards-container">
                 <div class="container-fluid">
-                    <div class="row justify-content-between py-3">
-                        <div class="col-4 px-3">
+                    <div class="row py-0 py-3-sm">
+                        <div class="col-12 col-sm-4 px-3 py-3 py-0-sm">
                             <div class="card px-0">
                                 <img class="card-img-top" src="images/Revofil/1.png" alt="">
                             </div>
                         </div>
-                        <div class="col-4 px-3">
+                        <div class="col-12 col-sm-4 px-3 py-3 py-0-sm">
                             <div class="card px-0">
                                 <img class="card-img-top" src="images/Revofil/2.png" alt="">
                             </div>
                         </div>
-                        <div class="col-4 px-3">
+                        <div class="col-12 col-sm-4 px-3 py-3 py-0-sm">
                             <div class="card px-0">
                                 <img class="card-img-top" src="images/Revofil/3.png" alt="">
                             </div>
                         </div>
                     </div>
-                    <div class="row py-3">
-                        <div class="col-4 px-3">
+                    <div class="row py-0 py-3-sm">
+                        <div class="col-12 col-sm-4 px-3 py-3 py-0-sm">
                             <div class="card px-0">
                                 <img class="card-img-top" src="images/Revofil/4.png" alt="">
                             </div>
                         </div>
-                        <div class="col-4 px-3">
+                        <div class="col-12 col-sm-4 px-3 py-3 py-0-sm">
                             <div class="card px-0">
                                 <img class="card-img-top" src="images/Revofil/5.png" alt="">
                             </div>
                         </div>
-                        <div class="col-4 px-3">
+                        <div class="col-12 col-sm-4 px-3 py-3 py-0-sm">
                             <div class="card px-0">
                                 <img class="card-img-top" src="images/Revofil/6.png" alt="">
                             </div>
@@ -462,35 +468,35 @@
 
             <div id="cards-container">
                 <div class="container-fluid">
-                    <div class="row justify-content-between py-3">
-                        <div class="col-4 px-3">
+                    <div class="row py-0 py-3-sm">
+                        <div class="col-12 col-sm-4 px-3 py-3 py-0-sm">
                             <div class="card px-0">
                                 <img class="card-img-top" src="images/Dermaxgel/1.png" alt="">
                             </div>
                         </div>
-                        <div class="col-4 px-3">
+                        <div class="col-12 col-sm-4 px-3 py-3 py-0-sm">
                             <div class="card px-0">
                                 <img class="card-img-top" src="images/Dermaxgel/2.png" alt="">
                             </div>
                         </div>
-                        <div class="col-4 px-3">
+                        <div class="col-12 col-sm-4 px-3 py-3 py-0-sm">
                             <div class="card px-0">
                                 <img class="card-img-top" src="images/Dermaxgel/3.png" alt="">
                             </div>
                         </div>
                     </div>
-                    <div class="row py-3">
-                        <div class="col-4 px-3">
+                    <div class="row py-0 py-3-sm">
+                        <div class="col-12 col-sm-4 px-3 py-3 py-0-sm">
                             <div class="card px-0">
                                 <img class="card-img-top" src="images/Dermaxgel/4.png" alt="">
                             </div>
                         </div>
-                        <div class="col-4 px-3">
+                        <div class="col-12 col-sm-4 px-3 py-3 py-0-sm">
                             <div class="card px-0">
                                 <img class="card-img-top" src="images/Dermaxgel/5.png" alt="">
                             </div>
                         </div>
-                        <div class="col-4 px-3">
+                        <div class="col-12 col-sm-4 px-3 py-3 py-0-sm">
                             <div class="card px-0">
                                 <img class="card-img-top" src="images/Dermaxgel/6.png" alt="">
                             </div>
@@ -509,35 +515,35 @@
 
             <div id="cards-container">
                 <div class="container-fluid">
-                    <div class="row justify-content-between py-3">
-                        <div class="col-4 px-3">
+                    <div class="row py-0 py-3-sm">
+                        <div class="col-12 col-sm-4 px-3 py-3 py-0-sm">
                             <div class="card px-0">
                                 <img class="card-img-top" src="images/Fake/1.png" alt="">
                             </div>
                         </div>
-                        <div class="col-4 px-3">
+                        <div class="col-12 col-sm-4 px-3 py-3 py-0-sm">
                             <div class="card px-0">
                                 <img class="card-img-top" src="images/Fake/2.png" alt="">
                             </div>
                         </div>
-                        <div class="col-4 px-3">
+                        <div class="col-12 col-sm-4 px-3 py-3 py-0-sm">
                             <div class="card px-0">
                                 <img class="card-img-top" src="images/Fake/3.png" alt="">
                             </div>
                         </div>
                     </div>
-                    <div class="row py-3">
-                        <div class="col-4 px-3">
+                    <div class="row py-0 py-3-sm">
+                        <div class="col-12 col-sm-4 px-3 py-3 py-0-sm">
                             <div class="card px-0">
                                 <img class="card-img-top" src="images/Fake/4.png" alt="">
                             </div>
                         </div>
-                        <div class="col-4 px-3">
+                        <div class="col-12 col-sm-4 px-3 py-3 py-0-sm">
                             <div class="card px-0">
                                 <img class="card-img-top" src="images/Fake/5.png" alt="">
                             </div>
                         </div>
-                        <div class="col-4 px-3">
+                        <div class="col-12 col-sm-4 px-3 py-3 py-0-sm">
                             <div class="card px-0">
                                 <img class="card-img-top" src="images/Fake/6.png" alt="">
                             </div>
